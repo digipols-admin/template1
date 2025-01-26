@@ -3,13 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "template1"
+  title: "TEMPLATE CHECK"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-
+      - href: tab1.qmd
+        text: Tab one
+        
 format:
   html:
     theme: cosmo
